@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "fgacha:blue_ticket"
+            }
+        },
+        "title": "티켓 교환",
+        "description": "처음으로 티켓을 교환하거나 획득하였습니다.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+
+    "criteria": {
+        "use_ticket" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:paper"
+                        ],
+                        "components": {
+                            "minecraft:item_model": "fgacha:blue_ticket"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    
+    "parent": "fgacha:root"
+}

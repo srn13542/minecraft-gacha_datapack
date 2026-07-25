@@ -1,0 +1,38 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:paper",
+        "components": {
+            "minecraft:item_model": "fgacha:copper_coin"
+        }
+    },
+        "title" : "코인 획득",
+        "description": "처음으로 가챠 코인을 획득했습니다.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    
+    "criteria": {
+        "get_coin" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:paper"
+                        ],
+                        "components": {
+                            "minecraft:item_model": "fgacha:copper_coin"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "fgacha:root",
+    "rewards": {
+        "function": "fgacha:reward/coin_get"
+    }
+}

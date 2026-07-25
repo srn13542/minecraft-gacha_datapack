@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "req" : {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": { "fgacha": { "gacha_machine": true } }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fgacha:place/start"
+    }
+}
