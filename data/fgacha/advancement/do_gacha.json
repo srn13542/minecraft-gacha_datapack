@@ -15,21 +15,20 @@
     },
     "criteria": {
         "do_gacha": {
-            "trigger" : "minecraft:consume_item",
+            "trigger" : "minecraft:using_item",
             "conditions": {
-                "items": [
+                "item":
                     {
                         "items": [
                             "minecraft:paper"
                         ],
                         "components" : {
-                            "minecraft:item_model" : "fgacha:retry_ticket"
+                            "minecraft:item_model" : "fgacha:blue_ticket"
                         }
                     }
-                ]
+                }
             }
-        }
-    },
+        },
     "parent": "fgacha:coin_get",
     "rewards": {}
 }
