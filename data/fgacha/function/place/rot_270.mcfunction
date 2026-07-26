@@ -1,0 +1,1 @@
+data modify entity @e[type=item_display,tag=fgacha_fresh,limit=1,sort=nearest] transformation.left_rotation set value [0f,-0.70710677f,0f,0.70710677f]
