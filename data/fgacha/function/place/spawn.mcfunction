@@ -1,3 +1,5 @@
+say [디버그] spawn 진입
+
 # 시각적 모델 (임시 태그 fgacha_fresh 추가)
 summon item_display ~ ~ ~ {Tags:["fgacha_machine","fgacha_fresh"], billboard:"fixed", Rotation:[0f,0f], item:{id:"minecraft:paper",count:1,components:{item_model:"fgacha:gacha_machine"}}, transformation:{translation:[0.5f,0.5f,0.5f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
 
