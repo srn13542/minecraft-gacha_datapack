@@ -2,7 +2,7 @@
 summon item_display ~ ~ ~ {Tags:["fgacha_machine"], billboard:"fixed", Rotation:[0f,0f], item:{id:"minecraft:paper",count:1,components:{item_model:"fgacha:gacha_machine"}}, transformation:{translation:[0.5f,0.5f,0.5f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
 
 # 히트박스
-summon interaction ~0.5 ~0.9 ~0.5 {Tags:["fgacha_machine_hitbox"], Rotation:[0f,0f], width:1.0,height:1.8}
+summon interaction ~0.5 ~0 ~0.5 {Tags:["fgacha_machine_hitbox"], Rotation:[0f,0f], width:1.2,height:2.0}
 
 # 회전 적용
 execute store result entity @e[type=item_display,tag=fgacha_machine,limit=1,sort=nearest] Rotation[0] float 1 run scoreboard players get @s fg.yaw
