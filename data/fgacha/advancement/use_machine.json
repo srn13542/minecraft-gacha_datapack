@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"fgacha_machine_hitbox\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fgacha:machine/click"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "fgacha:normal",
+          "weight": 29
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fgacha:rare",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fgacha:epic",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "fgacha:legendary",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
