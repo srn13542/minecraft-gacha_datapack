@@ -1,0 +1,1 @@
+execute as @a[scores={fg.click=1..}] run scoreboard players remove @s fg.click 1

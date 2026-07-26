@@ -1,1 +1,1 @@
-$execute as @e[type=interaction,tag=fgacha_machine_hitbox,nbt={attack:{player:$(uuid)}}] run function fgacha:place/break_remove
+$execute as @e[type=interaction,tag=fgacha_machine_hitbox,nbt={attack:{player:$(uuid)}},distance=..4,limit=1,sort=nearest] run function fgacha:place/break_remove

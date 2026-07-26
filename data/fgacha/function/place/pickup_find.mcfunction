@@ -1,1 +1,1 @@
-$execute as @e[type=interaction,tag=fgacha_machine_hitbox,nbt={interact:{player:$(uuid)}}] run function fgacha:place/pickup_remove
+$execute as @e[type=interaction,tag=fgacha_machine_hitbox,nbt={interact:{player:$(uuid)}},distance=..4,limit=1,sort=nearest] run function fgacha:place/pickup_remove
