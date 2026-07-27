@@ -6,7 +6,97 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:llama_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bee_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:drowned_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enderman_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:husk_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stray_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:squid_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vindicator_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hoglin_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanting_table"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:weakness"
+            }
+          ]
         }
       ]
     }

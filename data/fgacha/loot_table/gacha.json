@@ -12,12 +12,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "fgacha:rare",
-          "weight": 50.5
+          "weight": 50
         },
         {
           "type": "minecraft:loot_table",
           "value": "fgacha:epic",
-          "weight": 19.5
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",

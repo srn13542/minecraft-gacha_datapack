@@ -3,11 +3,11 @@
         "icon": {
             "id": "minecraft:paper",
             "components": {
-                "minecraft:item_model":"fgacha:retry_ticket"
+                "minecraft:item_model": "fgacha:blue_ticket"
             }
         },
-        "title" : "첫 번째 도박",
-        "description" : "당신의 티켓을 운의 흐름 속에 던져넣었습니다",
+        "title": "첫 번째 도박",
+        "description": "당신의 티켓을 운의 흐름 속에 던져넣었습니다",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -15,20 +15,9 @@
     },
     "criteria": {
         "do_gacha": {
-            "trigger" : "minecraft:using_item",
-            "conditions": {
-                "item":
-                    {
-                        "items": [
-                            "minecraft:paper"
-                        ],
-                        "components" : {
-                            "minecraft:item_model" : "fgacha:blue_ticket"
-                        }
-                    }
-                }
-            }
-        },
+            "trigger": "minecraft:impossible"
+        }
+    },
     "parent": "fgacha:coin_get",
     "rewards": {}
 }

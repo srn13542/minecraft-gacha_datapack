@@ -1,23 +1,79 @@
 {
-  "type":"minecraft:generic",
-  "pools":[
+  "type": "minecraft:generic",
+  "pools": [
     {
-      "rolls":1,
-      "entries":[
+      "rolls": 1,
+      "entries": [
         {
-          "type":"minecraft:item",
-          "name":"minecraft:diamond",
-          "weight":1
+          "type": "minecraft:item",
+          "name": "minecraft:cave_spider_spawn_egg"
         },
         {
-          "type":"minecraft:item",
-          "name":"minecraft:gold_ingot",
-          "weight":5
+          "type": "minecraft:item",
+          "name": "minecraft:silverfish_spawn_egg"
         },
         {
-          "type":"minecraft:item",
-          "name":"minecraft:iron_ingot",
-          "weight":20
+          "type": "minecraft:item",
+          "name": "minecraft:spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombified_piglin_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vex_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "똥",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ravager_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zoglin_spawn_egg"
         }
       ]
     }

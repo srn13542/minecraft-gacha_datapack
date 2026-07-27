@@ -13,9 +13,8 @@
         "announce_to_chat": true,
         "hidden": false
     },
-
     "criteria": {
-        "use_ticket" : {
+        "use_ticket": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -31,6 +30,5 @@
             }
         }
     },
-    
     "parent": "fgacha:root"
 }

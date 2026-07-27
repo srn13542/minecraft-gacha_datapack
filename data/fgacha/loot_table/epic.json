@@ -6,7 +6,99 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_ingot"
+          "name": "minecraft:skeleton_horse_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:budding_amethyst"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:conduit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ocelot_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:earth"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:water"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:fire"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:wind"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle"
         }
       ]
     }

@@ -6,7 +6,55 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dragon_egg"
+          "name": "minecraft:wolf_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_horse_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mooshroom_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:parrot_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fox_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:endermite_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trader_llama_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_trial_key"
         }
       ]
     }
