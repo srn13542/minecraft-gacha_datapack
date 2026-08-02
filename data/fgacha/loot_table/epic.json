@@ -6,15 +6,73 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:skeleton_horse_spawn_egg"
+          "name": "minecraft:ochre_froglight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:turtle_spawn_egg"
+          "name": "minecraft:verdant_froglight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:budding_amethyst"
+          "name": "minecraft:pearlescent_froglight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:waxed_exposed_copper_bulb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:budding_amethyst",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -22,15 +80,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:conduit"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:end_crystal"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:beacon"
         },
         {
           "type": "minecraft:item",
@@ -42,7 +92,71 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:trident"
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:witch_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanting_table"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shroomlight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -50,55 +164,35 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:painting",
+          "name": "minecraft:armadillo_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz_block",
           "functions": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:painting/variant": "minecraft:earth"
-              }
+              "function": "minecraft:set_count",
+              "count": 64
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:painting",
+          "name": "minecraft:dragon_breath"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_bricks",
           "functions": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:painting/variant": "minecraft:water"
-              }
+              "function": "minecraft:set_count",
+              "count": 64
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:painting",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:painting/variant": "minecraft:fire"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:painting",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:painting/variant": "minecraft:wind"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:experience_bottle"
+          "name": "minecraft:rabbit_foot"
         }
       ]
     }

@@ -10,15 +10,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:zombie_horse_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:cat_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mooshroom_spawn_egg"
         },
         {
           "type": "minecraft:item",
@@ -30,11 +22,23 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cube_spawn_egg"
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "fgacha:blue_ticket"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_spawn_egg"
+          "name": "minecraft:magma_cube_spawn_egg"
         },
         {
           "type": "minecraft:item",
@@ -46,15 +50,152 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:breeze_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:heavy_core"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ominous_trial_key"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "asset_id": "minecraft:netherite",
+                  "slot": "chest"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:mending": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:silk_touch": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:swift_sneak": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "level": "15"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_box"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:test_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
         }
       ]
     }

@@ -4,97 +4,253 @@
     {
       "rolls": 1,
       "entries": [
+        { "type": "minecraft:item", "name": "minecraft:skeleton_horse_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:zombie_horse_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:slime_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:bee_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:pufferfish_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:rabbit_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:squid_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:bat_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:cow_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:donkey_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:horse_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:pig_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:chicken_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:conduit" },
+        { "type": "minecraft:item", "name": "minecraft:hoglin_spawn_egg" },
+
         {
           "type": "minecraft:item",
-          "name": "minecraft:llama_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bee_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:drowned_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enderman_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:husk_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:skeleton_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stray_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:zombie_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pufferfish_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:squid_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:vindicator_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cow_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:donkey_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:horse_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pig_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chicken_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:hoglin_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:zombie_head"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanting_table"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shulker_shell"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
+          "name": "minecraft:painting",
           "functions": [
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:weakness"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:earth"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:water"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:fire"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:painting/variant": "minecraft:wind"
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+
+        { "type": "minecraft:item", "name": "minecraft:drowned_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:enderman_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:husk_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:skeleton_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:stray_spawn_egg" },
+        { "type": "minecraft:item", "name": "minecraft:zombie_spawn_egg" },
+
+        { "type": "minecraft:item", "name": "minecraft:zombie_head" },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_stem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_stem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_head"
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "똥",
+                  "italic": false
+                }
+              }
             }
           ]
         }

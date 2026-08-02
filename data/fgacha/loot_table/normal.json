@@ -6,7 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cave_spider_spawn_egg"
+          "name": "minecraft:llama_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg"
         },
         {
           "type": "minecraft:item",
@@ -14,15 +18,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:spider_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:witch_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:zombified_piglin_spawn_egg"
         },
         {
           "type": "minecraft:item",
@@ -38,7 +38,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bat_spawn_egg"
+          "name": "minecraft:vindicator_spawn_egg"
         },
         {
           "type": "minecraft:item",
@@ -46,30 +46,23 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_dye",
+          "name": "minecraft:iron_nugget",
           "functions": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {
-                  "text": "똥",
-                  "italic": false
-                }
-              }
+              "function": "minecraft:set_count",
+              "count": 7
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:polar_bear_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ravager_spawn_egg"
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 7
+            }
+          ]
         },
         {
           "type": "minecraft:item",
